@@ -16,13 +16,41 @@ header > nav > div{
     width: 20%;
     justify-content: space-around;
 }
-
-
 /* HEADER END */
 
 
 /* MAIN START */
+main{
+    margin-top: 60px;
+}
 
+/* SECTION 1 START */
+.section-1{
+    max-height: 80vh;
+    background-color: #B4D0E7;
+}
+
+.section-1 > div{
+    flex-direction: column;
+    padding-top: 60px;
+    gap: 30px;
+}
+
+.section-1 > div > h1{
+    font-size: 50px;
+}
+
+.section-1 .text-container{
+    background-color: red;
+    flex-direction: column;
+
+}
+
+.special-img{
+   max-height: 350px;
+}
+
+/* SECTION 1 END */
 
 
 /* MAIN END */

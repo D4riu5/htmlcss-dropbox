@@ -5,11 +5,14 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'PT Serif', serif;
+}
+
 .container-1{
     max-width: 1200px;
     margin: 0 auto;
 }
-
 
 .container-2{
     max-width: 1000px;
