@@ -145,11 +145,23 @@ main{
     height: 640px;
     border: solid 1px black;
 }
-
 /* SECTION 5 END */
 
-/* MAIN END */
+/* SECTION 6 START */
+.section-6{
+    margin-top: 150px;
+}
 
+.s6{
+    flex-direction: column;
+}
+
+.flex-item6{
+    min-height: 50px;
+    border: solid 1px black;
+}
+/* SECTION 6 END */
+/* MAIN END */
 
 /* FOOTER START */
 
