@@ -98,20 +98,23 @@ font-size: 38px;
     vertical-align: middle;
 }
 
-#section-2 > div > span::before{
+#span2::before{
     content: '';
     display: inline-block;
     width: 16px;
     height: 16px;
-    border: solid 2px gray;
+    border: solid 2px lightgray;
     border-radius: 50%;
     vertical-align: middle;
 }
 
-#blue-border::before{
+#span1::before{
     content: '';
+    display: inline-block;
+    vertical-align: middle;
     width: 10px;
     height: 10px;
+    border-radius: 50%;
     border: solid 6px blue;
 }
 
@@ -133,6 +136,7 @@ font-size: 38px;
     width: 100%;
     height: 250px;
     border: solid 1px gray;
+    flex-direction: column;
 }
 
 .row1{
@@ -148,6 +152,14 @@ font-size: 38px;
     justify-content: center;
     align-items: center;
     border-bottom: solid 1px gray;
+}
+
+.row3{
+    flex-direction: row;
+}
+
+.row3 > div{
+    width: 70%;
 }
 /* SECTION 2 END */
 
