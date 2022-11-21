@@ -30,3 +30,30 @@ body{
 .inline-block{
     display: inline-block;
 }
+
+
+/* Buttons START */
+button{
+border: none;
+cursor: pointer;
+}
+
+
+.blue{
+    color: white;
+    background-color: blue;
+}
+
+.white{
+    color: black;
+    background-color: white;
+}
+
+.brief{
+    padding: 6px 10px;
+}
+
+.long{
+
+}
+/* Buttons END */

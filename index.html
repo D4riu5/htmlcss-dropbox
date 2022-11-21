@@ -20,16 +20,16 @@
     <header>
         <nav class="flex-container">
             <div class="flex-container">
-                <a href="#"><img src="" alt="Logo"></a>
-                <a href="#">Lorem, ipsum.</a>
-                <a href="#">Lorem.</a>
-                <a href="#">Lorem, e dolor.</a>
+                <a href="#" class="flex-container"><img src="img/logo-small.png" alt="Logo"></a>
+                <a href="#">Perche Dropbox</a>
+                <a href="#">Funzioni</a>
+                <a href="#">Piani e Prezzi</a>
             </div>      
-            <div class="flex-container">
-                <a href="#">Lorem.</a>
-                <a href="#">Lorem, ipsum dolor.</a>
-                <a href="">Lorem.</a>
-                <a href="#"><button>Inizia</button></a>
+            <div class="flex-container hs2">
+                <a href="#">Supporto</a>
+                <a href="#">Contatta l'ufficio vendite</a>
+                <a href="">Accedi</a>
+                <a href="#" class="flex-container"><button class="blue brief">Inizia</button></a>
             </div>
     </header>
     <!-- HEADER END -->
@@ -37,7 +37,7 @@
     <!-- MAIN START -->
     <main>
         <!-- SECTION 1 START (h1, p, button/link, arrow-link, image)-->
-        <section class="section-1">
+        <section id="section-1">
             <div class="container-1 flex-container">
                 <h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem architecto dolorem</h1>
                 <div class="flex-container">
@@ -45,7 +45,7 @@
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse blanditiis veniam voluptates, sunt nam, voluptatum odit repellat debitis et obcaecati itaque ea sint quis officiis harum? Sunt ratione exercitationem ut nesciunt fugit aut perspiciatis illo voluptatum labore alias repellendus libero odio dicta reprehenderit asperiores magni ipsam eos, sit repellat? Impedit.</p>
                         <a href="#"><button>Lorem ipsum dolor sit amet.</button></a>
                         <span>Lorem ipsum dolor sit.</span>
-                        <a href="#">V</a>
+                        <a href="#buy">V</a>
                     </div>
                     <div class="rela">
                         <img  class=special-img src="img/jumbo.png" alt="">
@@ -56,32 +56,42 @@
         <!-- SECTION 1 END -->
 
         <!-- SECTION 2 START (h2, spanx2, flexcontainer with item1 32%width x3, item2 100% width x1) -->
-        <section class="container-2 section-2">
-            <h2>Lorem ipsum dolor sit amet consectetur.</h2>
+        <!-- div with id for the <a href="#buy">V</a> in section-1 (used to get correct position after click on V)-->
+        <div id="buy"></div>
+        <section id="section-2" class="container-2">
+            <h2>Trova il piano business che fa per te</h2>
             <div>
                 <span id="blue-border" class="inline-block"> Fatturazione mensile</span>
                 <span class="inline-block"> Fatturazione annuale</span>
             </div>
             <div class="flex-container s2">
                 <div class="flex-item1 flex-container">
-
+                    <div class="row1 flex-container">
+                        Icon Singolo
+                    </div>
                 </div>
                 <div class="flex-item1 flex-container">
-
+                    <div class="row1 flex-container">
+                        Icon Team
+                    </div>
                 </div>
                 <div class="flex-item1 flex-container">
-
+                    <div class="row1 flex-container">
+                        Icon Azienda
+                    </div>
                 </div>
 
                 <div class="flex-item2 flex-container">
-
+                    <div class="row2 flex-container">
+                        Icon Team
+                    </div>
                 </div>
             </div>
         </section>
         <!-- SECTION 2 END -->
 
         <!-- SECTION 3 START (flexcontainer with image left side, h2 p and button right side) -->
-        <section class="container-2 section-3">
+        <section id="section-3" class="container-2">
                 <div class="flex-container">
                     <img class="flex-item3" src="img/partner.png" alt="image">
                     <aside class="container-flex2">
@@ -94,7 +104,7 @@
         <!-- SECTION 3 END -->
 
         <!-- SECTION 4 START (h2, flexcontainer with 6 items like boolando, h2, link ) -->
-        <section class="container-2 section-4">
+        <section id="section-4" class="container-2">
             <h2>Lorem ipsum dolor sit amet consectetur adipisicing.</h2>
             <div class="flex-container s4">
                 <div class="flex-item4">
@@ -122,7 +132,7 @@
         <!-- SECTION 4 END -->
 
         <!-- SECTION 5 START (special section)-->
-        <section class="section-5">
+        <section id="section-5">
             <div class="s5 flex-container">
                 
             </div>
@@ -130,7 +140,7 @@
         <!-- SECTION 5 END -->
 
         <!-- SECTION 6 START (hoverable divs) -->
-        <section class="section-6 container-2">
+        <section id="section-6" class="container-2">
             <h2>Domande frequenti</h2>
             <div class="flex-container s6">
                 <div class="flex-item6">
