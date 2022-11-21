@@ -136,6 +136,18 @@ main{
 /* SECTION 4 END */
 
 
+/* SECTION 5 START */
+.section-5{
+    margin-top: 150px;
+}
+
+.s5{
+    height: 640px;
+    border: solid 1px black;
+}
+
+/* SECTION 5 END */
+
 /* MAIN END */
 
 
