@@ -10,12 +10,12 @@ body{
 }
 
 .container-1{
-    max-width: 1200px;
+    max-width: 1100px;
     margin: 0 auto;
 }
 
 .container-2{
-    max-width: 1050px;
+    max-width: 950px;
     margin: 0 auto;
 }
 
@@ -36,8 +36,9 @@ body{
 button{
 border: none;
 cursor: pointer;
+-webkit-box-shadow: 0px 0px 15px -5px #000000; 
+box-shadow: 0px 0px 15px -5px #000000;
 }
-
 
 .blue{
     color: white;
@@ -54,6 +55,6 @@ cursor: pointer;
 }
 
 .long{
-
+    padding: 10px 20px;
 }
 /* Buttons END */
