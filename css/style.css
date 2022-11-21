@@ -102,8 +102,20 @@ main{
     height: 20vh;
     border: solid 1px gray;
 }
-
 /* SECTION 2 END */
+
+/* SECTION 3 START */
+.section-3{
+    margin-top: 150px;
+}
+
+.section3-img{
+    min-width: 65%;
+}
+
+/* SECTION 3 END */
+
+
 
 /* MAIN END */
 
