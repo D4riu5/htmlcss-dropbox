@@ -154,11 +154,64 @@ main{
     margin-top: 60px;
 }
 
+main p,
+main span{
+    font-size: 14px;
+}
+
 /* SECTION 1 START */
 #section-1{
     height: 540px;
-    background-color: orange;
 }
+
+#section-1 > div > h1{
+    font-size: 40px;
+}
+
+.s1_cell1{
+    width: 35%;
+    height: 100%;
+    padding: 50px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.s1_cell2{
+    width: 65%;
+    height: 100%;
+    padding: 50px;
+    background-color: #be4b0a;
+}
+
+#section-1 button{
+    padding: 30px 30px;
+    font-size: 16px;
+}
+
+button > span{
+    padding-left: 20px;
+}
+
+#section-1 a:last-of-type{
+    text-decoration: none;
+    color: black;
+}
+
+#section-1 a:last-of-type > span{
+    border-bottom: solid 1px lightgray;
+}
+
+#section-1 a:last-of-type > span:hover{
+    border-bottom: solid 1px black;
+}
+
+.s1_cell2 > div>img{
+    max-width: 100%;
+    max-height: 440px;
+    margin-left: 100px;
+}
+
+
 /* SECTION 1 END */
 
 /* SEFCTION 2 START */
