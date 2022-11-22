@@ -155,26 +155,36 @@ main{
 }
 
 /* SECTION 1 START */
-
+#section-1{
+    height: 540px;
+    background-color: orange;
+}
 /* SECTION 1 END */
 
 /* SEFCTION 2 START */
-
+#section-2{
+    height: calc(540px * 5);
+    background-color: #1e1919;
+}
 /* SECTION 2 END */
 
 /* SECTION 3 START */
+#section-3{
+    height: calc(540px * 2);
+}
 
 /* SECTION 3 END */
 
 /* mini SECTION 4 START */
-
+#section-4{
+    height: calc(540px / 2);
+    background-color: #1e1919;
+}
 /* mini SECTION 4 END */
 /* MAIN END */
 
 /* FOOTER START */
 footer{
-    margin-top: 150px;
-    
     background-color: black;
     color: white;
 }
