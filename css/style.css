@@ -316,7 +316,7 @@ aside{
 }
 
 .large-cell > div{
-    width: 45%;
+    width: 50%;
     justify-content: space-between;
     color: darkred;
 }
@@ -349,14 +349,13 @@ aside{
     margin-right: 20px;
     font-size: 10px;
 }
-
 /* SECTION 6 END */
 /* MAIN END */
 
 /* FOOTER START */
 footer{
     margin-top: 150px;
-    height: 500px;
+    
     background-color: black;
     color: white;
 }
@@ -364,24 +363,38 @@ footer{
 footer > nav{
     padding-top: 50px;
     width: 100%;
-    height: 360px;
+    height: 260px;
     justify-content: space-between;
 }
 
 .footer-item{
     width: calc(100% / 5 - 10px);
     flex-direction: column;
-    border: solid 1px white;
-    height: 300px;
+    gap: 10px;
+}
+
+.footer-item >h3{
+    margin-bottom: 10px;
+}
+
+.footer-item >a{
+    text-decoration: none;
+    color: white;
 }
 
 .footer-bottom{
-    padding-top: 50px;
+    padding: 40px 0;
+}
+
+.footer-bottom > a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
 }
 
 .footer-bottom > hr{
     width: 10%;
-    margin-bottom: 20px;
+    margin: 50px 0;
 }
-/* FOOTER END */
 
+/* FOOTER END */
