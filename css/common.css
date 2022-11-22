@@ -5,6 +5,44 @@
     box-sizing: border-box;
 }
 
+/* fontawesome start*/
+.icon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+  }
+
+.pse-icon::before {
+    font: var(--fa-font-solid);
+    padding-right: 5px;
+}
+
+.user::before {
+    content: "\f007";
+}
+
+.team::before {
+    content: "\f0c0";
+}
+
+.company::before {
+    content: "\f1ad";
+}
+
+.storage::before {
+    content: "\f07b";
+}
+
+.functions::before {
+    content: "\f1e0";
+}
+
+.blue-check::before {
+    content: "\f00c";
+    color:blue
+}
+/* fontawesome end */
+
 body{
     font-family: 'PT Serif', serif;
 }
@@ -58,3 +96,4 @@ box-shadow: 0px 0px 15px -5px #000000;
     padding: 10px 20px;
 }
 /* Buttons END */
+

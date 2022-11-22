@@ -56,8 +56,8 @@
         <!-- SECTION 1 END -->
 
         <!-- SECTION 2 START (h2, spanx2, flexcontainer with item1 32%width x3, item2 100% width x1) -->
-        <!-- div with id for the <a href="#buy">V</a> in section-1 (used to get correct position after click on V)-->
-        <div id="buy"></div>
+        
+        <div id="buy"></div> <!-- div with id for the <a href="#buy">V</a> in section-1 (used to get correct position after click on V)-->
         <section id="section-2" class="container-2">
             <h2>Trova il piano business che fa per te</h2>
             <div>
@@ -67,71 +67,101 @@
             <div class="flex-container s2">
                 <div class="flex-item1 flex-container">
                     <div class="row1 flex-container">
-                        <span>Singolo</span>
+                        <span class="pse-icon user">Singolo</span>
                     </div>
-                    <h3>Professional</h3>
-                    <span class="bold-tag">&euro; 12,00</span>
-                    <span class="sub-text-tag">/mese</span>
-                    <span class="indented-tag users">1 utente</span>
-                    <span class="indented-tag storage">5 TB di spazio di archiviazione sicuro</span>
-                    <span class="indented-tag functions">Funzioni di produttivita premium e condivisione file semplice e sicura</span>
-                    <a href="#"><button class="long blue">Prova gratis per 30 giorni</button></a>
-                    <span>oppure <a href="#">acquista ora</a></span>
-                    <hr>
-                    <h4>Punti Salienti del piano</h4>
-                    <span>Invia file fino a 100 GB con Dropbox Transfert</span>
-                    <span>Cartelle offline su dispositivi mobili</span>
+                    <div class="item-wrapper flex-container">
+                        <div class="sub-item-wrapper flex-container">
+                            <h3>Professional</h3>
+                            <span class="bold-tag">&euro; 12,00</span>
+                            <span class="sub-text-tag">/mese</span>
+                        </div>
+                        <div class="sub-item-wrapper flex-container">
+                            <span class="pse-icon user">1 utente</span>
+                            <span class="pse-icon storage">5 TB di spazio di archiviazione sicuro</span>
+                            <span class="pse-icon functions">Funzioni di produttivita premium e condivisione file semplice e sicura</span>
+                        </div>
+                        <a href="#"><button class="long blue">Prova gratis per 30 giorni</button></a>
+                        <span>oppure <a href="#">acquista ora</a></span>
+                        <hr>
+                        <div class="sub-item-wrapper flex-container">
+                            <h4>Punti Salienti del piano</h4>
+                            <span class="pse-icon blue-check">Invia file fino a 100 GB con Dropbox Transfert</span>
+                            <span class="pse-icon blue-check">Cartelle offline su dispositivi mobili</span>
+                        </div>
+                    </div>
                 </div>
                 <div class="flex-item1 flex-container">
                     <div class="row1 flex-container">
-                        <span>Team</span>
+                        <span class="pse-icon team">Team</span>
                     </div>
-                    <h3>Advanced</h3>
-                    <span class="bold-tag">&euro; 18,00</span>
-                    <span class="sub-text-tag">/utente/mese</span>
-                    <span class="indented-tag users">3 o piu utenti</span>
-                    <span class="indented-tag storage">Tutto lo spazio di cui hai bisogno</span>
-                    <span class="indented-tag functions">Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team</span>
-                    <a href="#"><button class="long blue">Prova gratis per 30 giorni</button></a>
-                    <span>oppure <a href="#">acquista ora</a></span>
-                    <hr>
-                    <h4>Punti Salienti del piano</h4>
-                    <span>Nessun limite di spazio per i file</span>
-                    <span>Cartelle offline su dispositivi mobili</span>
-                    <span>Risparmio del 50% rispetto alle iscrizioni singole</span>
-                    <span>Possibilita di inserire nuovi membri del team</span>
-                    <span>Gestione dei permessi in base ai ruoli</span>
+                    <div class="item-wrapper flex-container">
+                        <div class="sub-item-wrapper flex-container">
+                            <h3>Advanced</h3>
+                            <span class="bold-tag">&euro; 18,00</span>
+                            <span class="sub-text-tag">/utente/mese</span>
+                        </div>
+                        <div class="sub-item-wrapper flex-container">
+                            <span class="pse-icon team">3 o piu utenti</span>
+                            <span class="pse-icon storage">Tutto lo spazio di cui hai bisogno</span>
+                            <span class="pse-icon functions">Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team</span>
+                        </div>
+                        <a href="#"><button class="long blue">Prova gratis per 30 giorni</button></a>
+                        <span>oppure <a href="#">acquista ora</a></span>
+                        <hr>
+                        <div class="sub-item-wrapper flex-container">
+                            <h4>Punti Salienti del piano</h4>
+                            <span class="pse-icon blue-check">Nessun limite di spazio per i file</span>
+                            <span class="pse-icon blue-check">Cartelle offline su dispositivi mobili</span>
+                            <span class="pse-icon blue-check">Risparmio del 50% rispetto alle iscrizioni singole</span>
+                            <span class="pse-icon blue-check">Possibilita di inserire nuovi membri del team</span>
+                            <span class="pse-icon blue-check">Gestione dei permessi in base ai ruoli</span>
+                        </div>
+                    </div>
+                    
                 </div>
                 <div class="flex-item1 flex-container">
                     <div class="row1 flex-container">
-                        <span>Azienda</span>
+                        <span class="pse-icon company">Azienda</span>
                     </div>
-                    <h3>Enterprise</h3>
-                    <span class="bold-tag">Contattaci</span>
-                    <span class="sub-text-tag">-</span>
-                    <span class="indented-tag users">10 o piu utenti</span>
-                    <span class="indented-tag storage">Soluzioni personalizzabili per la tua azienda</span>
-                    <span class="indented-tag functions">Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala</span>
-                    <a href="#"><button class="long blue">Contattaci</button></a>
-                    <span>oppure <a href="#">acquista ora</a></span>
-                    <hr>
-                    <h4>Punti Salienti del piano</h4>
-                    <span>Cartelle offline su dispositivi mobili</span>
-                    <span>Servizio assistenza 24/h</span>
-                    <span>Possibilita di personalizzazione totale</span>
+                    <div class="item-wrapper flex-container">
+                        <div class="sub-item-wrapper flex-container">
+                            <h3>Enterprise</h3>
+                            <span class="bold-tag">Contattaci</span>
+                            <span class="sub-text-tag">-</span>
+                        </div>
+                        <div class="sub-item-wrapper flex-container">
+                            <span class="pse-icon user">10 o piu utenti</span>
+                            <span class="pse-icon storage">Soluzioni personalizzabili per la tua azienda</span>
+                            <span class="pse-icon functions">Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala</span>
+                        </div>
+                        <a href="#"><button class="long blue">Contattaci</button></a>
+                        <span>oppure <a href="#">acquista ora</a></span>
+                        <hr>
+                        <div class="sub-item-wrapper flex-container">
+                            <h4>Punti Salienti del piano</h4>
+                            <span class="pse-icon blue-check">Cartelle offline su dispositivi mobili</span>
+                            <span class="pse-icon blue-check">Servizio assistenza 24/h</span>
+                            <span class="pse-icon blue-check">Possibilita di personalizzazione totale</span>
+                        </div>
+                    </div>
+
                 </div>
 
                 <div class="flex-item2 flex-container">
                     <div class="row2 flex-container">
-                        <span>Team</span>
+                        <span class="pse-icon company">Team</span>
                     </div>
                     <div class="flex-container row3">
-                        <div>
-                            <h3>Enterprise</h3>
-                            <span class="bold-tag">Contatta l'ufficio vendite per i prezzi</span>
-                            <span class="sub-text-tag">Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala.</span>
+                        <div class="item-wrapper flex-container">
+                            <div class="sub-item-wrapper flex-container">
+                                <h3>Enterprise</h3>
+                                <h4 class="bold-tag">Contatta l'ufficio vendite per i prezzi</h4>
+                            </div>
+                            <span>Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala.</span>
                         </div>
-                        <a href="#"><button class="long blue">Contatta l'ufficio vendite</button></a>
+                        <div class="item-wrapper flex-container">
+                            <a href="#"><button class="long blue">Contatta l'ufficio vendite</button></a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -182,7 +212,28 @@
         <!-- SECTION 5 START (special section)-->
         <section id="section-5">
             <div class="s5 flex-container">
-                
+                <div class="big-box flex-container">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+
+                <div class="big-box">
+                    <div class="middle">
+                        <div><img src="" alt=""></div>
+                        <hr>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga architecto neque consequatur repellendus, distinctio quia adipisci veritatis delectus quis nostrum assumenda dolorum deleniti. Autem tempore ab delectus debitis deserunt inventore nesciunt sed. Voluptates ut aspernatur vel alias, architecto amet, iste veritatis ea magni optio rem laudantium perferendis eaque quis recusandae.</p>
+                        <span>Lorem ipsum dolor sit.</span>
+                    </div>
+                </div>
+
+                <div class="big-box flex-container">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
             </div>
         </section>
         <!-- SECTION 5 END -->
