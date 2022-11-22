@@ -354,6 +354,27 @@ aside{
     margin-right: 20px;
     font-size: 10px;
 }
+/* ON HOVER START */
+.answer{
+    display: inline-block;
+    margin: 20px 0px;
+    color: red;
+    display: none;
+}
+
+.flex-item6:hover,
+.flex-item6-mid:hover{
+    cursor: pointer;
+}
+
+.flex-item6:hover .answer,
+.flex-item6-mid:hover .answer{
+    display: block;
+}
+
+/* ON HOVER END */
+
+
 /* SECTION 6 END */
 /* MAIN END */
 
