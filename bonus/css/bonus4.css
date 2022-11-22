@@ -1,0 +1,203 @@
+/* HEADER START */
+header> nav{
+    min-height: 60px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 20;
+    justify-content: space-between;
+}
+
+header > nav > div{
+    width: 40%;
+    gap: 20px;
+    padding: 0 20px 0 10px;
+    align-items: center;
+}
+
+.hs2{
+    justify-content: flex-end; 
+}
+
+header > nav > div > a{
+    height: 60px;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    align-items: center;
+}
+
+header > nav > div > a > img{
+    width: 100%;
+    height: 20px;
+}
+
+.hs2 > a {
+    vertical-align: middle;
+    align-items: center;
+}
+/* HEADER ON HOVER START */
+header > nav > div > a:not(#no-border):hover{
+border-bottom: solid 1px black;
+}
+
+.shadow{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 60px;
+    left: 0;
+    background-color: black;
+    display: none;
+    z-index: 5;
+}
+/* perche discord start */
+header > nav > div > a:nth-of-type(2):not(#contatta):hover ~ .shadow{
+    opacity: .4;
+    display: block;
+}
+
+header > nav > div > a:nth-of-type(2):hover ~ .perche-dropbox{
+    display: block;
+}
+
+.perche-dropbox:hover{
+    display: block;
+}
+
+.perche-dropbox:hover ~ .shadow{
+    opacity: .4;
+    display: block;
+}
+
+.perche-dropbox{
+    position: absolute;
+    width: 400px;
+    top: 60px;
+    left: 120px;
+    background-color: white;
+    display: none;
+    z-index: 8;
+}
+
+.perche-dropbox > div{
+    justify-content: space-between;
+    margin: 15px;
+}
+
+.perche-dropbox > div > div{
+    width: 50%;
+    font-size: 12px;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.perche-dropbox > div > div > a{
+    text-decoration: none;
+    color: black;
+}
+/* perche discord end */
+
+/* supporto start */
+header > nav > div >#sup:hover ~ .shadow{
+    opacity: .4;
+    display: block;
+}
+
+header > nav > div >#sup:hover ~ .supporto{
+    display: block;
+}
+
+.supporto:hover{
+    display: block;
+}
+
+.supporto:hover ~ .shadow{
+    opacity: .4;
+    display: block;
+}
+
+.supporto{
+    position: absolute;
+    width: 200px;
+    top: 60px;
+    left: 1200px;
+    background-color: white;
+    display: none;
+    z-index: 8;
+}
+
+.supporto > div{
+    margin: 15px;
+}
+
+.supporto > div > div{
+    width: 100%;
+    font-size: 12px;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.supporto > div > div > a{
+    text-decoration: none;
+    color: black;
+}
+/* supporto end */
+
+/* HEADER ON HOVER END */
+/* HEADER END */
+
+/* MAIN START */
+main{
+    margin-top: 60px;
+}
+
+/* MAIN END */
+
+/* FOOTER START */
+footer{
+    margin-top: 150px;
+    
+    background-color: black;
+    color: white;
+}
+
+footer > nav{
+    padding-top: 50px;
+    width: 100%;
+    height: 260px;
+    justify-content: space-between;
+}
+
+.footer-item{
+    width: calc(100% / 5 - 10px);
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-item >h3{
+    margin-bottom: 10px;
+}
+
+.footer-item >a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer-bottom{
+    padding: 40px 0;
+}
+
+.footer-bottom > a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+
+.footer-bottom > hr{
+    width: 10%;
+    margin: 50px 0;
+}
+/* FOOTER END */
