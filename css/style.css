@@ -87,10 +87,7 @@ font-size: 38px;
     margin-top: 150px;
 }
 
-#section-2 >h2{
-    font-size: 35px;
-    margin-bottom: 50px;
-}
+
 
 #section-2 > div > span{
     padding-right: 20px;
@@ -225,8 +222,6 @@ aside{
     flex-direction: column;
     gap: 20px;
 }
-
-
 /* SECTION 3 END */
 
 /* SECTION 4 START */
@@ -246,14 +241,22 @@ aside{
     width: 31%;
     height: 500px;
     flex-direction: column;
-    border: solid 1px gray;
+    gap: 20px;
+}
+
+.flex-item4 > img{
+    width: 100%;
 }
 /* SECTION 4 END */
 
 
 /* SECTION 5 START */
+#section-5> div:first-of-type{
+    margin-bottom: 100px;
+}
+
 #section-5{
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 .s5{
