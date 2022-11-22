@@ -320,9 +320,6 @@ aside{
     justify-content: space-between;
     color: darkred;
 }
-
-
-
 /* SECTION 5 END */
 
 /* SECTION 6 START */
@@ -336,8 +333,23 @@ aside{
 
 .flex-item6{
     min-height: 60px;
-    border: solid 1px black;
+    border-top: solid 1px black;
+    border-bottom: solid 1px black;
+    align-items: center;
+    justify-content: space-between;
 }
+
+.flex-item6-mid{
+    min-height: 60px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.s6 i{
+    margin-right: 20px;
+    font-size: 10px;
+}
+
 /* SECTION 6 END */
 /* MAIN END */
 
