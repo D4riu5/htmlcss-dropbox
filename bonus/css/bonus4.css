@@ -159,6 +159,21 @@ main span{
     font-size: 14px;
 }
 
+.special-link-white{
+    color: white;
+}
+
+.special-link-white:hover{
+    text-decoration: none;
+}
+
+.special-link{
+    color: black;
+}
+
+.special-link:hover{
+    text-decoration: none;
+}
 /* SECTION 1 START */
 #section-1{
     height: 540px;
