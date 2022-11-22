@@ -74,10 +74,20 @@ body{
     margin-bottom: 50px;
 }
 
+.bigger-h2_no-margin{
+    font-size: 35px;
+}
+
+span,
+p{
+    font-size: 12px;
+}
+
 /* Buttons START */
 button{
-border: none;
-cursor: pointer;
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
 }
 
 .blue{
@@ -91,6 +101,10 @@ cursor: pointer;
     border: solid 1px black;
 }
 
+.borderless{
+    border: none;
+}
+
 .brief{
     padding: 6px 10px;
 }
@@ -100,3 +114,37 @@ cursor: pointer;
 }
 /* Buttons END */
 
+
+/* background colors start */
+.light-green{
+    background-color: #A2D39B;
+}
+
+.dark-red{
+    background-color:  #61082B;
+}
+
+.light-blue{
+    background-color: #0093CE;
+}
+
+.blue{
+    background-color: #0D2481;
+}
+
+.cyan{
+    background-color: #B4D0E7;
+}
+
+.dark-orange{
+    background-color: #FF1C1C;
+}
+
+.red{
+    background-color: #D5001F;
+}
+
+.yellow{
+    background-color: #FFD830;
+}
+/* background colors end */

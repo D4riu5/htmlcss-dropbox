@@ -80,14 +80,16 @@ main{
 color: black;
 font-size: 38px;
 }
+
+#down-arrow{
+    margin-top: 40px;
+}
 /* SECTION 1 END */
 
 /* SECTION 2 START */
 #section-2{
     margin-top: 150px;
 }
-
-
 
 #section-2 > div > span{
     padding-right: 20px;
@@ -126,11 +128,6 @@ font-size: 38px;
     height: 750px;
     flex-direction: column;
     border: solid 1px lightgray;
-}
-
-.flex-item1 span,
-.flex-item2 span{
-    font-size: 12px;
 }
 
 .flex-item1 h4,
@@ -256,18 +253,16 @@ aside{
 }
 
 #section-5{
-    margin-top: 150px;
+    margin-top: 100px;
 }
 
 .s5{
-    border: solid 1px black;
     justify-content: space-between;
 }
 
 .big-box{
     height: calc(100vw /3);
     /* 100vh because 100vh = 100% width, so 100%/3 is the same as 100vh/3 , /3 because 3 squares means 33% so im giving height 33% same as width */
-    border: solid 1px black;
     width: calc(100% /3);
     justify-content: space-between;
     flex-wrap: wrap;
@@ -276,13 +271,57 @@ aside{
 .big-box > div:not(.middle){
     width: 50%;
     height: 50%;
-    border: solid 1px black;
 }
 
 .middle{
     height: 100%; 
     overflow: auto;
 }
+
+.s5 > div > div{
+    justify-content: center;
+    align-items: center;
+}
+
+.big-box > div >img{
+    padding: 40px 40px;
+    width: 80%;
+    filter: invert(1);
+}
+
+#bordered{
+    border: solid 3vh #D1E9CD;
+}
+
+.middle-box-wrapper{
+    margin: 30px 30px;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.middle-box-wrapper > img{
+    width: 40%;
+}
+
+.middle-box-wrapper > hr{
+    width: 20%;
+    color: lightgray;
+}
+
+.large-cell{
+    height: calc(100vw /5);
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.large-cell > div{
+    width: 45%;
+    justify-content: space-between;
+    color: darkred;
+}
+
+
 
 /* SECTION 5 END */
 
