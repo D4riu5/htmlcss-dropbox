@@ -1,0 +1,404 @@
+/* HEADER START */
+header> nav{
+    min-height: 60px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 20;
+    justify-content: space-between;
+}
+
+header > nav > div{
+    width: 40%;
+    gap: 20px;
+    padding: 0 20px 0 10px;
+    align-items: center;
+}
+
+.hs2{
+    justify-content: flex-end; 
+}
+
+header > nav > div > a{
+    height: 60px;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    align-items: center;
+}
+
+header > nav > div > a > img{
+    width: 100%;
+    height: 20px;
+}
+
+.hs2 > a {
+    vertical-align: middle;
+    align-items: center;
+}
+/* HEADER ON HOVER START */
+header > nav > div > a:not(#no-border):hover{
+border-bottom: solid 1px black;
+}
+/* HEADER ON HOVER END */
+/* HEADER END */
+
+
+/* MAIN START */
+main{
+    margin-top: 60px;
+}
+
+/* SECTION 1 START */
+#section-1{
+    height: 560px;
+    background-color: #B4D0E7;
+}
+
+#section-1 > div{
+    flex-direction: column;
+    padding-top: 60px;
+    gap: 30px;
+}
+
+#section-1 > div > h1{
+    font-size: 60px;
+}
+
+#section-1 .text-container{
+    flex-direction: column;
+    max-width: 30%;
+    gap: 35px;
+    font-size: 14px;
+}
+
+.special-img{
+   max-height: 380px;
+   position: absolute;
+   top: 0;
+   left: 0;
+}
+
+.fa-arrow-down{
+color: black;
+font-size: 38px;
+}
+
+#down-arrow{
+    margin-top: 40px;
+}
+/* SECTION 1 END */
+
+/* SECTION 2 START */
+#section-2{
+    margin-top: 150px;
+}
+
+#section-2 > div > span{
+    padding-right: 20px;
+    vertical-align: middle;
+}
+
+#span2::before{
+    content: '';
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border: solid 2px lightgray;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+#span1::before{
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: solid 6px blue;
+}
+
+.s2{
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.flex-item1{
+    width: 31%;
+    height: 750px;
+    flex-direction: column;
+    border: solid 1px lightgray;
+}
+
+.flex-item1 h4,
+.flex-item2 h4{
+    font-size: 14px;
+}
+
+.flex-item2{
+    width: 100%;
+    height: 250px;
+    border: solid 1px lightgray;
+    flex-direction: column;
+}
+
+.row1{
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid 1px lightgray;
+}
+
+.row2{
+    height: 50px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid 1px lightgray;
+}
+
+.row3{
+    flex-direction: row;
+}
+
+.item-wrapper{
+    margin: 20px 20px;
+    flex-direction: column;
+}
+
+.sub-item-wrapper{
+    margin-bottom: 40px;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.item-wrapper > a > button{
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.item-wrapper > hr{
+    width: 20%;
+    margin: 40px 0;
+    color: lightgray;
+}
+
+.flex-item2 .item-wrapper:first-of-type{
+    width: 70%;
+}
+
+.flex-item2 .item-wrapper:last-of-type{
+    width: 30%;
+}
+
+.flex-item2 .item-wrapper span{
+    margin-top: 20px;
+}
+
+.bold-tag{
+    font-weight: bold;
+}
+
+.sub-text-tag{
+    color: gray;
+}
+/* SECTION 2 END */
+
+/* SECTION 3 START */
+#section-3{
+    margin-top: 150px;
+}
+
+.flex-item3{
+    min-width: 65%;
+}
+
+aside{
+    height: 100%;
+    margin: 30px 30px;
+    flex-direction: column;
+    gap: 20px;
+}
+/* SECTION 3 END */
+
+/* SECTION 4 START */
+#section-4{
+    margin-top: 150px;
+}
+
+.s4{
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.flex-item4{
+    width: 31%;
+    height: 500px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.flex-item4 > img{
+    width: 100%;
+}
+/* SECTION 4 END */
+
+
+/* SECTION 5 START */
+#section-5> div:first-of-type{
+    margin-bottom: 100px;
+}
+
+#section-5{
+    margin-top: 100px;
+}
+
+.s5{
+    justify-content: space-between;
+}
+
+.big-box{
+    height: calc(100vw /3);
+    /* 100vh because 100vh = 100% width, so 100%/3 is the same as 100vh/3 , /3 because 3 squares means 33% so im giving height 33% same as width */
+    width: calc(100% /3);
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.big-box > div:not(.middle){
+    width: 50%;
+    height: 50%;
+}
+
+.middle{
+    height: 100%; 
+    overflow: auto;
+}
+
+.s5 > div > div{
+    justify-content: center;
+    align-items: center;
+}
+
+.big-box > div >img{
+    padding: 40px 40px;
+    width: 80%;
+    filter: invert(1);
+}
+
+#bordered{
+    border: solid 3vh #D1E9CD;
+}
+
+.middle-box-wrapper{
+    margin: 30px 30px;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.middle-box-wrapper > img{
+    width: 40%;
+}
+
+.middle-box-wrapper > hr{
+    width: 20%;
+    color: lightgray;
+}
+
+.large-cell{
+    height: calc(100vw /5);
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.large-cell > div{
+    width: 50%;
+    justify-content: space-between;
+    color: darkred;
+}
+/* SECTION 5 END */
+
+/* SECTION 6 START */
+#section-6{
+    margin-top: 150px;
+}
+
+.s6{
+    flex-direction: column;
+}
+
+.flex-item6{
+    min-height: 60px;
+    border-top: solid 1px black;
+    border-bottom: solid 1px black;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex-item6-mid{
+    min-height: 60px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.s6 i{
+    margin-right: 20px;
+    font-size: 10px;
+}
+/* SECTION 6 END */
+/* MAIN END */
+
+/* FOOTER START */
+footer{
+    margin-top: 150px;
+    
+    background-color: black;
+    color: white;
+}
+
+footer > nav{
+    padding-top: 50px;
+    width: 100%;
+    height: 260px;
+    justify-content: space-between;
+}
+
+.footer-item{
+    width: calc(100% / 5 - 10px);
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-item >h3{
+    margin-bottom: 10px;
+}
+
+.footer-item >a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer-bottom{
+    padding: 40px 0;
+}
+
+.footer-bottom > a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+
+.footer-bottom > hr{
+    width: 10%;
+    margin: 50px 0;
+}
+/* FOOTER END */
