@@ -74,6 +74,10 @@ main{
     font-size: 14px;
 }
 
+.text-container > a:first-of-type{
+    width: 180px;
+}
+
 .special-img{
    max-height: 380px;
    position: absolute;
@@ -82,8 +86,8 @@ main{
 }
 
 .fa-arrow-down{
-color: black;
-font-size: 38px;
+    color: black;
+    font-size: 38px;
 }
 
 #down-arrow{
@@ -224,6 +228,10 @@ aside{
     flex-direction: column;
     gap: 20px;
 }
+
+aside a{
+   width: 110px; 
+}
 /* SECTION 3 END */
 
 /* SECTION 4 START */
@@ -324,6 +332,10 @@ aside{
     width: 50%;
     justify-content: space-between;
     color: darkred;
+}
+
+.large-cell > div>a{
+    max-height: 20px;
 }
 /* SECTION 5 END */
 
