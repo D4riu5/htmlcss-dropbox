@@ -38,11 +38,12 @@ header > nav > div > a > img{
     vertical-align: middle;
     align-items: center;
 }
-/* HEADER ON HOVER START */
+
+/* HOVER START */
 header > nav > div > a:not(#no-border):hover{
-border-bottom: solid 1px black;
+    border-bottom: solid 1px black;
 }
-/* HEADER ON HOVER END */
+/* HOVER END */
 /* HEADER END */
 
 
